@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 20, 20);
+    color: white;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.5vw;
+    padding: 80px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+/** Header **/
+
+header div {
+    background-image: url(facebg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-y: 10%;
+    background-blend-mode:soft-light;
+    height: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+header div h1 {
+    background-color: transparent;
+    color: goldenrod;
+    font-family: 'Victor Mono', monospace;
+    font-size: 8rem;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 700px;
+    padding: 30px;
+    border: 3px inset gold;
+    list-style: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li a {
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 3vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    color: #00FFFF
+}
+
+/** body **/
+
+#academics {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#co-curricular {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#communitywork {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#projects {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#hobbies {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.row pre {
+    word-wrap: normal;
+    width: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    line-height: 2vw;
+    float: left;
+}
+
+.row img {
+    float: right;
+    width: 40%;
+    padding: 50px;
+    height: auto;
+    opacity: 70%;
+}
+
+.row p {
+    word-wrap: normal;
+    padding-top: 70px;
+    width: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    line-height: 2vw;
+    float: left;
+}
